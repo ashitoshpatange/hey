@@ -1,0 +1,133 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #3c5077;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    color: #333;
+    background-color: gainsboro;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+select {
+    border-radius: 5px;
+}
+
+.popup {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    text-align: center;
+    transform: translate(-50%, -50%) scale(0.1);
+    padding: 10px 30px;
+    visibility: hidden;
+    transition: trasnform 0.4sec, top 0.4sec;
+}
+.open-popup{
+    top: 50%;
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup p {
+    position: absolute;
+    width: 73px;
+    height: 30px;
+    left: 24px;
+    top: 24px;
+
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 300px;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-top: 50px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 137px;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.btn {
+    color: #1570EF;
+    background-color: white;
+    margin-right: 30px;
+    width: 89px;
+    height: 24px;
+    border: 1px solid #333;
+    /* Text md/Normal */
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* color: blue;
+    background-color: white;
+    padding: 10px 30px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500; */
+}
+
+.cancel-btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 16px 10px 16px;
+    margin-top: 200px ;
+    /* color: #333;
+    border: 1px solid#333;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: 400;
+    padding: 10px 30px;
+    background-color: white; */
+}
+
+.save-btn {
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400;
+    padding: 10px 30px;
+}
